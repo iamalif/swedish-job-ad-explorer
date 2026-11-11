@@ -1,0 +1,20 @@
+CREATE TABLE jobs (
+    id TEXT PRIMARY KEY,
+    headline TEXT,
+    description TEXT,
+    number_of_vacancies INTEGER,
+    employer_name TEXT,
+    employer_org_number TEXT,
+    occupation_label TEXT,
+    occupation_group TEXT,
+    occupation_field TEXT,
+    municipality TEXT,
+    region TEXT,
+    employment_type TEXT,
+    working_hours_type TEXT,
+    publication_date TIMESTAMPTZ,
+    last_publication_date TIMESTAMPTZ,
+    application_deadline TIMESTAMPTZ,
+    removed BOOLEAN,
+    removed_date TIMESTAMPTZ
+);
